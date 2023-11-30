@@ -45,14 +45,12 @@ fun UnitConverter(){
 
         }
         // Here all the ui elements will be stacked next each other
-
+        Text("Result:")
     }
 }
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
-    UnitConverterTheme {
-
-    }
+fun UnitConverterPreview(){
+    UnitConverter()
 }
